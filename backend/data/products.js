@@ -1,0 +1,117 @@
+const products=[
+    {
+        name:"KENT Supreme 2020 (11111), Wall Mountable, RO + UF + TDS Control + UV in Tank, 8 L Tank, White, 20 LPH Water Purifier",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/71pP7OvqaRL._SL1500_.jpg",
+        description:"Multiple purification process by RO+UF+TDS Control which removes even dissolved impurities such as arsenic, rust, pesticides and fluorides, and kills bacteria and viruses to make water pure and suitable for consumption. The in tank UV LED keeps purified water pure for longer duration.",
+        price:130,
+        countInStock:50 ,
+    },
+    {
+        name:"GANT Men's Regular fit Casual Shirt",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/818%2BiqC--QL._UL1500_.jpg",
+        description:"Colour: Blue, Fit Type: Regular, Material: Cotton",
+        price: 40,
+        countInStock:130 ,
+    },
+    {
+        name:"PMT Full Sleeves Cotton Casual White Shirt for Man",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/519l7oLpapL._UL1500_.jpg",
+        description:"100% High-grade Cotton Fabrics: Good capability of tenderness, air permeability and moisture absorption feels soft and comfy.",
+        price:20 ,
+        countInStock:500 ,
+    },
+    {
+        name:"SPTC Women's Full Sleeve Solid Crop Top",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/51r2RKbxdiL._UL1067_.jpg",
+        description:"Size Range : Small (32), Medium (34), Large (36), X-Large (38)",
+        price: 50,
+        countInStock:1090 ,
+    },
+    {
+        name:"VERO MODA Women's Boyfriend Slim Leggings",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/511iiKkxA4L._UL1000_.jpg",
+        description:"Care Instructions: Machine Wash",
+        price: 15,
+        countInStock: 20,
+    },
+    {
+        name:"Dasein Women's Top Handle Structured Two Tone Tote Bag Satchel Handbag Shoulder Bag With Shoulder Strap (6417 Orange/Brown)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/91mFrR6htSL._UL1500_.jpg",
+        description:"Women fashion two tone tote bags with matching wallet with a fashion tassle. Top zip closure, gold hardware and bottom studs. It can be used as a women tote bag, daily purse, shoulder bag, top",
+        price:900 ,
+        countInStock:30 ,
+    },
+    {
+        name:"Skybags 32 Ltrs Blue Casual Backpack (BPNNE17HBLU)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/81QNgzqdJ%2BL._SL1500_.jpg",
+        description:"Capacity: 32 Liters; Weight: 528 Grams; Dimensions: 47 Cms X 35 Cms X 23 Cms (Lxwxh)",
+        price:90 ,
+        countInStock:50 ,
+    },
+    {
+        name:"Lunar's Bingo - 48 L Laptop Office/School/Travel/Business Backpack Water Resistant - Fits Up to 15.6 Inch Laptop Notebook with 1 Year Warranty",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/71I2IM7gsyL._UL1500_.jpg",
+        description:"WATER RESISTANT WITH 1 YEAR WARRANTY - Stylish and durable unisex travel laptop backpack that is your perfect travel partner. Size: 20 inch X 13.5 inch X 9.5 inch. Capacity : 48 liters. Backpack is made of high grade water resistant polyester material that gives it strength and durable for long-term use. 12 months warranty for any manufacturing defects",
+        price:75 ,
+        countInStock:10 ,
+    },
+    
+    {
+        name:"OPPO F19 Pro+ 5G (Fluid Black, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/71nT6xat93L._SL1500_.jpg",
+        description:"6.43 inch (16.3cm) FHD+ Super AMOLED Punch-hole Display with 2400x1080 pixels. Larger Screen to Body ratio of 90.8%, In-display Fingerprint 3.0",
+        price: 500,
+        countInStock:13 ,
+    },
+    {
+        name:"Amazon Brand - Solimo 100% Cotton Padded Oven Gloves Paisley, (Pack of 2, Blue)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/71BUnXdBXSL._SL1500_.jpg",
+        description:"Filled with 3.5 layers of cotton for good heat insulation and softness",
+        price: 4,
+        countInStock:170 ,
+    },
+    {
+        name:"Amazon Brand - Solimo Revolving Plastic Spice Rack set (16 pieces,Silver)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/81u0Uo4nQdL._SL1500_.jpg",
+        description:"Made in India, 16 spice jars with 120 ml capacity each",
+        price: 6,
+        countInStock:1000 ,
+    },
+    {
+        name:"Amazon Brand - Solimo Plastic Fridge Bottle Set (6 pieces, 1L, Checkered pattern, Multicolour)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/91LvKER5jhL._SL1500_.jpg",
+        description:"Fit for regular use: with each bottle weighing 106 gms, made of thick material tested thoroughly for the purpose",
+        price: 10,
+        countInStock:119 ,
+    },
+    {
+        name:"Vandelay Infrared Thermometer CQR-T800 - Made In India, Non Contact IR Thermometer, Forehead Temperature Gun",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/51yhH82KvZL._SL1280_.jpg",
+        description:"Non Contact and Accurate Readings : Non-contact infrared measurement. Measuring distance is under 1-2inch, while avoiding cross infection. The forehead thermometer medical has been clinically tested, and has a very small error margin. It is actually more accurate and healthier than standard mercury thermometers.",
+        price: 40,
+        countInStock:130 ,
+    },
+    {
+        name:"DECORVAIZ Home Decor Wood & Metal Floor Lamp ( Brown )",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/51Dix75nkgS.jpg",
+        description:"Item Name:Floor Lamp Material- Wood-Metal",
+        price: 59,
+        countInStock:3 ,
+    },
+    {
+        name:"Amazon Brand - Presto! Surface Cleaning Wipes - 30 wipes/pack (Pack of 4)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/81bXLxcY6cL._SL1500_.jpg",
+        description:"Offers protection against 99.9% germs and bacteria",
+        price: 3,
+        countInStock:99 ,
+    },
+    {
+        name:"All new Echo Show 10- 10.1 HD smart display with motion, premium sound and Alexa (Black)",
+        imageUrl:"https://images-na.ssl-images-amazon.com/images/I/51iABjSt3BS._SL1000_.jpg",
+        description:"Echo Show 10 is the best smart speaker we have ever created with a revolutionary 10.1'' screen that moves automatically to face you! The 10W speaker delivers loud and clear sound.",
+        price: 400,
+        countInStock:13 ,
+    }
+];
+
+module.exports=products;
